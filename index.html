@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">Ayoub</div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Ayoub</span></h1>
+                <p class="hero-subtitle">Computer Science Engineer | Full Stack Developer | AI & DevOps Enthusiast</p>
+                <p class="hero-description">UM6P Computer Science student passionate about innovative projects, quality software engineering, and solving complex problems with cutting-edge technology.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science engineering student at UM6P with practical expertise in full-stack web development, AI/Computer Vision, and DevOps. I thrive on solving complex problems and creating innovative solutions that make a real impact.</p>
+                    <p>My experience spans multiple domains: building reactive web applications with Vue.js, developing AI modules for plant health detection using YOLO and TensorFlow, and automating CI/CD pipelines with Jenkins and Docker. I'm a competitive programmer (12th place in MCPC 2024-2025) with strong problem-solving skills under pressure.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>4</h3>
+                            <p>Major Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>12th</h3>
+                            <p>National Programming</p>
+                        </div>
+                        <div class="stat">
+                            <h3>7+</h3>
+                            <p>Tech Skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Local Domotics Competition</h3>
+                        <p class="company">UM6P | 2023 - 2024</p>
+                        <p>Development of an AI module to detect plant health status from images within an intelligent home system designed to optimize food production in urban environments.</p>
+                        <ul class="responsibilities">
+                            <li>Implemented YOLO for object detection in agricultural systems</li>
+                            <li>Built TensorFlow classification models for crop vitality analysis</li>
+                            <li>Integrated computer vision pipeline into smart home system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Moroccan Collegiate Programming Contest (MCPC)</h3>
+                        <p class="company">National Competition | 2024 - 2025</p>
+                        <p>Competed in national programming competition as team member, solving 5 complex algorithmic problems under time constraints and achieving 12th place in national ranking.</p>
+                        <ul class="responsibilities">
+                            <li>Ranked 12th in national programming competition</li>
+                            <li>Mastered advanced data structures and optimized algorithmic problem-solving</li>
+                            <li>Demonstrated high-pressure condition management and team coordination</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>DevOps - CI/CD Pipeline Implementation</h3>
+                        <p class="company">UM6P | 2024 - 2025</p>
+                        <p>Implementation of a complete automated CI/CD pipeline for web applications including build automation, testing, static code analysis, and cloud deployment stages.</p>
+                        <ul class="responsibilities">
+                            <li>Built Jenkins/GitHub Actions pipelines for continuous integration and deployment</li>
+                            <li>Containerized applications using Docker for consistent environments</li>
+                            <li>Integrated SonarQube for code quality analysis and monitoring with Prometheus & Grafana</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Chat Application (Projet-Web)</h3>
+                        <p class="company">UM6P | 2023 - 2024</p>
+                        <p>Design and development of a complete messaging application with modern, intuitive, and reactive interface for seamless user communication.</p>
+                        <ul class="responsibilities">
+                            <li>Architected responsive and accessible UI/UX with Vue.js framework</li>
+                            <li>Implemented dynamic conversation display and user management system</li>
+                            <li>Optimized front-end performance for smooth reactive interactions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-cards">
+                <div class="edu-card">
+                    <h3>Engineering Degree in Computer Science</h3>
+                    <p class="institution">UM6P - College of Computing</p>
+                    <p class="year">2023 - 2028</p>
+                    <p class="description">Specialization in Software Engineering with focus on web development, AI, cloud computing, and innovative problem-solving.</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Competitive Programming Achievement</h3>
+                    <p class="institution">Moroccan Collegiate Programming Contest (MCPC)</p>
+                    <p class="year">2024 - 2025</p>
+                    <p class="description">Ranked 12th nationally in MCPC. Demonstrated mastery of advanced algorithms, data structures, and high-pressure problem-solving.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Nuxt.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">YOLO</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">SonarQube</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Monitoring & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Plant Health Detection System</h3>
+                        <p>AI-powered module for detecting plant health from images in an intelligent home system optimized for urban food production.</p>
+                        <div class="project-tags">
+                            <span class="tag">YOLO</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/msfayoub" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Chat Application</h3>
+                        <p>Fully-featured messaging application with reactive interface, dynamic conversation management, and intuitive user experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/msfayoub" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Automated CI/CD Pipeline</h3>
+                        <p>Complete DevOps solution with automated build, test, code analysis, and deployment stages for modern web applications.</p>
+                        <div class="project-tags">
+                            <span class="tag">Jenkins</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">GitHub Actions</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/msfayoub" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's work together!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:Ayoub.MOUSSAIF@um6p.ma">Ayoub.MOUSSAIF@um6p.ma</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+212657531545">+212 65 753 1545</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Morocco</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-contact">
+                    <a href="https://www.linkedin.com/in/ayoub-moussaif-1287a9354/" target="_blank" class="social-card">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>Connect with me professionally</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/msfayoub" target="_blank" class="social-card">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>Check out my open source work</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ayoub Moussaif</h4>
+                    <p>Computer Science Engineer at UM6P | Full Stack Developer | AI & DevOps Enthusiast</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/msfayoub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:Ayoub.MOUSSAIF@um6p.ma" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayoub Moussaif. All rights reserved. | Computer Science Engineer at UM6P</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
